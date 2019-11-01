@@ -26,7 +26,7 @@ Scaled data for better performance of models
 **Evaluation Data Analysis**
 My target variable is somewhat evenly distributed as you can see in the image below. 
 
-http://localhost:8888/view/CourseMaterials/Projects/Project_4_classification/airline_classifcationproject/target_image.png
+![](http://localhost:8888/view/CourseMaterials/Projects/Project_4_classification/airline_classifcationproject/target_image.png)
 
 You can clearly see that there are differences between months with delayed flights. 
 
