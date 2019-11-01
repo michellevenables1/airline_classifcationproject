@@ -30,4 +30,5 @@ http://localhost:8888/view/CourseMaterials/Projects/Project_4_classification/air
 
 You can clearly see that there are differences between months with delayed flights. 
 
-http://localhost:8888/view/CourseMaterials/Projects/Project_4_classification/airline_classifcationproject/monthly_delays.png
+![](/airline_classifcationproject/monthly_delays.png)
+
