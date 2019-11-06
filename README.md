@@ -60,4 +60,4 @@ FPR: 22.02%
 ![](XGB_confmatrix.png)
 
 **XGBoost Feature Importances:**
-![](XGB_featureimportances)
+![](XGB_featureimportances.png)
