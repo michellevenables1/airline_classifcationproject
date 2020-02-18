@@ -1,15 +1,27 @@
 # airline_classifcationproject
 
-# Mod_5 Classification project 
+# Binary Classification Project
 
-***Presentation:*** 
+***Presentation:***
 https://docs.google.com/presentation/d/1C3j3M1RD1broGEBP-hSPHpQul_8n4n7t/edit#slide=id.p1
+
+Classification Project Lifecycle
+1. State the question and determine required Data
+2. Clean_data = Acquire the data in an accessible format
+3. Evaluating_data = Identify and correct missing data points/anomalies as required
+4. Evaluating_data = Prepare the data for the machine learning model  
+5. Modeling= Establish a baseline model that you aim to exceed
+6. Modeling= Train the model on the training data
+7. Make predictions on the test data
+8. Compare predictions to the known test set targets and calculate performance metrics
+9. Adjust the model, acquire more data, or try a different modeling technique
+10. Interpret model and report results visually and numerically
 
 **Question**
 Can we predict if a flight will be delayed?
 (The US department of transportation defines a delayed flight as 15 minutes or more past the departure scheduled time.)
 
-**Data Cleaning** 
+**Data Cleaning**
 Target: Delayed_Flight >= 20%
 - Dataset originally had number of flights delayed per month/year for each airport
 Features: Months, years, total arrival flights, airports
@@ -18,7 +30,7 @@ Features: Months, years, total arrival flights, airports
 Remove observations with missing data
 Rename columns name
 Created Dummy variables
-- Month 
+- Month
 - Year
 - Airport
 Scaled data for better performance of models
@@ -30,7 +42,7 @@ My target variable is somewhat evenly distributed as you can see in the image be
 
 ![](target_image.png)
 
-You can clearly see that there are differences between months with delayed flights. 
+You can clearly see that there are differences between months with delayed flights.
 
 ![](monthly_delays.png)
 
@@ -38,20 +50,20 @@ You can clearly see that there are differences between months with delayed fligh
 **Model Evaluation**
 ![](model_eval.png)
 
-As you can see XGBoost preformed the best out of all models. 
+As you can see XGBoost preformed the best out of all models.
 
 **XGBoost Statistical Measures**
-Accuracy: 79.66% 
+Accuracy: 79.66%
 (highest model)
 
 F1-Score: 80.34%
 (highest model)
 
-Precision Score: 79.44% 
+Precision Score: 79.44%
 (highest model)
 
-Recall Score: 81.26 
-(Sensitivity/TPR) 
+Recall Score: 81.26
+(Sensitivity/TPR)
 
 AUC: 80%
 Specificity: 77.98%
