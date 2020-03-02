@@ -38,15 +38,15 @@ Note: There was high correlation between the minute features and target variable
 **Evaluation Data Analysis**
 My target variable is somewhat evenly distributed as you can see in the image below. (no need to smote)
 
-![](target_image.png)
+![](images/target_image.png)
 
 You can clearly see that there are differences between months with delayed flights.
 
-![](monthly_delays.png)
+![](images/monthly_delays.png)
 
 
 **Model Evaluation**
-![](model_eval.png)
+![](images/model_eval.png)
 
 As you can see XGBoost preformed the best out of all models.
 
@@ -67,8 +67,8 @@ AUC: 80%
 Specificity: 77.98%
 FPR: 22.02%
 
-![](XGB_confmatrix.png)
+![](images/XGB_confmatrix.png)
 
 **XGBoost Feature Importances:**
 
-![](XGB_featureimportances.png)
+![](images/XGB_featureimportances.png)
