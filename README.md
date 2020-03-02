@@ -1,7 +1,6 @@
 # Airline Classification Project
 
-**Question**
-Can we predict if a flight will be delayed?
+**Can we predict if a flight will be delayed?**
 (The US department of transportation defines a delayed flight as 15 minutes or more past the departure scheduled time.)
 
 ***Presentation:***
