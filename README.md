@@ -1,6 +1,4 @@
-# airline_classifcationproject
-
-# Binary Classification Project
+# Airline Classification Project
 
 **Question**
 Can we predict if a flight will be delayed?
