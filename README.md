@@ -2,6 +2,10 @@
 
 # Binary Classification Project
 
+**Question**
+Can we predict if a flight will be delayed?
+(The US department of transportation defines a delayed flight as 15 minutes or more past the departure scheduled time.)
+
 ***Presentation:***
 https://docs.google.com/presentation/d/1C3j3M1RD1broGEBP-hSPHpQul_8n4n7t/edit#slide=id.p1
 
@@ -17,9 +21,6 @@ Classification Project Lifecycle
 9. Adjust the model, acquire more data, or try a different modeling technique
 10. Interpret model and report results visually and numerically
 
-**Question**
-Can we predict if a flight will be delayed?
-(The US department of transportation defines a delayed flight as 15 minutes or more past the departure scheduled time.)
 
 **Data Cleaning**
 Target: Delayed_Flight >= 20%
